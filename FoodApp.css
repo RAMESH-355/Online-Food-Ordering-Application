@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.header{
+   display: flex; 
+   justify-content: space-between;
+   border: 1px solid black;
+}
+.logo{
+    width: 140px;
+}
+
+
+.Nav-items{
+    padding: 0px 10px;
+}
+.Nav-items > ul {
+    display: flex;
+    font-size: 25px;
+    list-style-type: none; 
+}
+
+.Nav-items > ul > li{
+
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.login-button{
+    width: 80px;
+    height: 50px; 
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.filter{
+    display: flex;
+}
+
+.filterbutton{
+
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(78, 194, 214);
+    text-align: center;
+    cursor: pointer;
+
+}
+.Res-card:hover{
+
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Res-card {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+
+.Search{
+    padding: 10px;
+
+}
+
+.res-logo{
+    
+    width: 100%;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width: 126px;
+    height: 100px;
+    color: rgb(108, 93, 93);
+}
+.User-js{
+    border: 2px solid grey;
+    padding: 5px;
+}
+*/

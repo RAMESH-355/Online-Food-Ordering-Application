@@ -1,0 +1,31 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "Fooddeliveyapp",
+  "scripts": {
+    "start": "parcel FoodAppindex.html",
+    "test": "jest",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist",
+   "build": "parcel build FoodAppindex.html"
+  },
+  
+  "keywords": [],
+  "author": "Akshay saini",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.15.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.3.5"
+  },
+  "homepage": "https://RAMESH-355.github.io/Online-Food-Ordering-Application",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "gh-pages": "^6.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.1"
+  }
+}
