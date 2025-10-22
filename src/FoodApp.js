@@ -1,16 +1,15 @@
 import React, {lazy, Suspense} from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./Components/Header.js";
-import Body from "./Components/Body.js"; 
-import Contact from "./Components/Contact.js";
 import Error from "./Components/Error.js";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import RestraurentMenu from "./Components/RestaurentMenu.js";
 import { Provider } from "react-redux";
 import appStore from "./Utilities/appStore.js";
+import Header from "./Components/Header.js";
+import Body from "./Components/Body.js";
+import Contact from "./Components/Contact.js";
 import About from "./Components/About.js";
-import Cart from "./Components/Cart.js"; 
-
+import Cart from "./Components/Cart.js";
 
 const Grocery = lazy(() => import("./Components/Grocery.js"));
 
